@@ -9,7 +9,7 @@ C#, TypeScript, Swift and SQL.
 
 I've led four quality engineers on a cross-platform application serving 5M+ users, owned the
 risk-based regression call during production releases, and built a reusable C#/.NET API
-automation framework containerised for pipeline use.
+automation framework containerized for pipeline use.
 
 ---
 
