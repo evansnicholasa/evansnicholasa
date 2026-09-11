@@ -47,10 +47,23 @@ release and cited by tag, so the numbers can be reproduced rather than taken on 
 
 A working application rather than a demo. A FastAPI service in Python with SQLAlchemy models
 and Alembic migrations against MariaDB, a React single-page front end built in Vite, shared
-requirements and architecture in a third repo that both consume as a git submodule, and a
-Chrome extension that pulls postings straight into it. Runs on a self-hosted Debian machine.
+requirements and architecture in a third repo that both consume as a git submodule, and two
+Chrome extensions — one scrapes a posting and files it, the other marks an existing
+application closed in a single click. Runs on a self-hosted Debian machine.
 
-**[backend](https://github.com/nevans-job-tracker/job-tracker-backend)** · **[frontend](https://github.com/nevans-job-tracker/job-tracker-frontend)** · **[shared docs](https://github.com/nevans-job-tracker/job-tracker-docs)** · **[extension](https://github.com/nevans-job-tracker/chrome-extension-job-tracker)**
+**[backend](https://github.com/nevans-job-tracker/job-tracker-backend)** · **[frontend](https://github.com/nevans-job-tracker/job-tracker-frontend)** · **[shared docs](https://github.com/nevans-job-tracker/job-tracker-docs)** · **[import extension](https://github.com/nevans-job-tracker/chrome-extension-job-tracker)** · **[close-posting extension](https://github.com/nevans-job-tracker/chrome-extension-job-tracker-close-posting)**
+
+### [jira-cli](https://github.com/evansnicholasa/jira-cli) — replacing a metered integration with 330 lines
+
+I was driving that project's Jira board through Atlassian's hosted Rovo MCP server. It worked,
+but it meters against Rovo credits and is not offered on the Free plan — so keeping one
+integration alive meant paying for a tier I had no other use for. The REST API underneath it
+is on every plan, unmetered.
+
+So I wrote about 330 lines of Python that talks to it directly: a single file, no dependencies,
+any Python 3.9 or later. It runs anywhere there is a shell — terminal, editor, CI job, more
+than one AI coding agent — where an MCP server only works where it has been configured. And it
+can be read, tested and changed, which a hosted service cannot.
 
 ### Also here
 
