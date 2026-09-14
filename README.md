@@ -11,9 +11,9 @@ I've led four quality engineers on a cross-platform application serving more tha
 million users, owned the risk-based regression call during production releases, and built a
 reusable C#/.NET API automation framework containerized for pipeline use.
 
-Three years writing code with **GitHub Copilot** day to day, including its pull request
-reviewer. Alongside that I build with **Claude Code** — and, more usefully for a quality
-engineer, I measure what it produces.
+I've used **GitHub Copilot** for three years writing automation and application code.
+Alongside that I build with **Claude Code** — and, more usefully for a quality engineer, I
+measure what it produces.
 
 ---
 
