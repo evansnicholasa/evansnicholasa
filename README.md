@@ -12,8 +12,8 @@ million users, owned the risk-based regression call during production releases, 
 reusable C#/.NET API automation framework containerized for pipeline use.
 
 I've used **GitHub Copilot** for three years writing automation and application code.
-Alongside that I build with **Claude Code** — and, more usefully for a quality engineer, I
-measure what it produces.
+Alongside that I build with **Anthropic Claude Code** and **OpenAI Codex** — and, more
+usefully for a quality engineer, I measure what AI produces.
 
 ---
 
