@@ -65,12 +65,6 @@ any Python 3.9 or later. It runs anywhere there is a shell — terminal, editor,
 than one AI coding agent — where an MCP server only works where it has been configured. And it
 can be read, tested and changed, which a hosted service cannot.
 
-### Also here
-
-**[ai-test-case-generator](https://github.com/nevans-ai-qa-chatgpt/ai-test-case-generator)** —
-turns user stories and acceptance criteria into structured, validated test cases, schema-first
-on the principle that model output is untrusted input.
-
 ---
 
 ### Toolkit
