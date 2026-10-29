@@ -13,9 +13,9 @@ than five million users, directed onshore, nearshore and offshore quality engine
 team's release quality gate on production releases, and designed a containerized .NET API
 framework whose tests ran in a GitHub Actions pipeline.
 
-I've used **GitHub Copilot Plugin** for three years as a force multiplier while writing and
+I've used **GitHub Copilot Plugin** on three client engagements as a force multiplier while writing and
 debugging automated test cases. I also build with **Anthropic Claude Code** and **OpenAI
-Codex**, and I published a measurement of LLM-assisted failure triage against a deterministic
+Codex**, and I published a study of LLM-assisted failure triage against a deterministic
 baseline.
 
 ---
